@@ -92,7 +92,7 @@ Show the name and the population of each country in Europe. Show the population 
 */
 SELECT
        name
-     , CONCAT(ROUND((population*100)/
+     , CONCAT (ROUND((population*100)/
        (
               SELECT
                      population
@@ -101,7 +101,7 @@ SELECT
               WHERE
                      name='Germany'
        )
-       , 0), '%')
+       ),'%') AS percentage
 FROM
        world
 WHERE
