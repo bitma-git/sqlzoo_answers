@@ -1,1 +1,1 @@
-# sqlzoo_answers
+Solutions to the challenges on https://sqlzoo.net/
